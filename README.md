@@ -49,6 +49,6 @@ To ensure that a verification is also run whenever a pact changes, we create a w
   * Pact-JS has a very flexible verification task configuration that allows us to use the same code for both the main pipeline verifications and the webhook-triggered verifications, with dynamically set options. Depending on your pact implementation, you may need to define separate tasks for each of these concerns.
   * When the verification results are published, the provider version number is set to the git sha, and the provider version branch is the git branch name. You can read more about versioning [here](https://docs.pact.io/getting_started/versioning_in_the_pact_broker).
 
-## Usage
+## Usage.
 
 See the [PactFlow CI/CD Workshop](https://github.com/pactflow/ci-cd-workshop).
